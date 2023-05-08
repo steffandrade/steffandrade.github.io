@@ -9,13 +9,13 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: linear-gradient(to bottom right, #ffd500 25%, rgb(255, 246, 119) 35%, #ffd500 40%);
+  background-image: linear-gradient(to bottom right, #5a5a5a , rgb(36, 36, 36) , #000000 );
   animation: float 6s linear infinite alternate;
 }
 
 section {
   padding: 45px;
-  background-color:aliceblue;
+  background-color:rgb(0, 0, 0);
   width: 500px;
   border-radius: 15px;
   display: flex;
@@ -33,7 +33,7 @@ header img {
 }
 
 header h3{
-  color: #63a0e6;
+  color: rgb(116, 16, 68);
   font-size: 1.35rem;
 }
 
@@ -45,12 +45,12 @@ main {
 }
 
 main a {
-  background: #63a0e6;
+  background: rgb(43, 43, 43);
   padding: 15px 0;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   border-radius: 10px;
-  box-shadow: 10px 10px #eeaeCa;
+  box-shadow: 10px 10px #e0dae0;
   transition: all .5s ease-in-out;
 }
 
@@ -83,4 +83,8 @@ main a:hover {
     padding: 10px 0;
     box-shadow: 5px 5px #eeaeCa;
   }
+}
+
+p {
+  color: white;
 }
